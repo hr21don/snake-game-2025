@@ -62,6 +62,9 @@ API Documentation: [Gemini API](https://aistudio.google.com/app/apikey)
 
 ## Preview:
 
-https://github.com/user-attachments/assets/ebf0e7a8-1b3f-4e1c-9160-848c01bf4619
+https://github.com/user-attachments/assets/231108ec-b180-4008-9372-6ed0e7f191fc
+
+
+
 
 
