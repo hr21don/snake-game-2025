@@ -54,8 +54,13 @@ Create a neon-styled snake-game with the following features listed below.
 - Incorporate neon-style icons for game elements (speed boosts, power-ups, etc.).
 - Apply smooth, subtle animations using requestAnimationFrame for fluid gameplay.
 
+
 📚 Documentation
 
 Firebase Documentation: [Effective Prompt](https://firebase.google.com/docs/studio/prompting?_gl=1*1x2p5c5*_up*MQ..*_ga*MTEzMDQ1MTcyOC4xNzQ0NDQ4MDMz*_ga_CW55HF8NVT*MTc0NDQ0ODAzMy4xLjAuMTc0NDQ0ODAzMy4wLjAuMA)
+
+## Preview:
+
+https://github.com/user-attachments/assets/ebf0e7a8-1b3f-4e1c-9160-848c01bf4619
 
 
