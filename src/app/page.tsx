@@ -43,11 +43,17 @@ export default function HomePage() {
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)) {
+      const key = e.key.toLowerCase();
+      let direction: 'UP' | 'DOWN' | 'LEFT' | 'RIGHT' | null = null;
+
+      if (['arrowup', 'w'].includes(key)) direction = 'UP';
+      else if (['arrowdown', 's'].includes(key)) direction = 'DOWN';
+      else if (['arrowleft', 'a'].includes(key)) direction = 'LEFT';
+      else if (['arrowright', 'd'].includes(key)) direction = 'RIGHT';
+
+      if (direction && gameState === 'running') {
         e.preventDefault();
-        if (gameState === 'running') {
-          setPlayerDirection(e.key.replace('Arrow', '').toUpperCase() as 'UP' | 'DOWN' | 'LEFT' | 'RIGHT');
-        }
+        setPlayerDirection(direction);
       }
     };
 
