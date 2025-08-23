@@ -1,6 +1,6 @@
 # snake-game
 
-A modern take on the classic snake game, built with Next.js and Firebase.
+A modern take on the classic snake game, built with Next.js and Firebase studio.
 
 ## 🚀 Getting Started
 
